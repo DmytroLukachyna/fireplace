@@ -1,0 +1,42 @@
+.offer {
+    padding-top: 110px;
+    &__wrapper {
+        padding-left: 80px;
+        display: flex;
+        &-text {
+            width: 60%;
+            max-width: 850px;
+            margin-left: 30px;
+            margin-top: 60px;
+        }
+    }
+    &__bg {
+        width: 40%;
+        position: relative;
+    }
+    &__img {
+        width: 100%;
+        position: absolute;
+    }
+    &__subtitle {
+        &:before {
+            background: rgb(119, 130, 140);
+        }
+    }
+    &__promo {
+        &-start {
+            margin: 20px 0;
+            max-width: 650px;
+        }
+        &-end {
+            margin: 30px 0 50px;
+            max-width: 750px;
+        }
+    }
+    &__block {
+        width: 100%;
+        height: 124px;
+        background: rgb(30, 38, 50);
+        margin-top: 100px;
+    }
+}

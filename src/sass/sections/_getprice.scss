@@ -1,0 +1,92 @@
+.getprice {
+    padding-right: 80px;
+    padding-top: 95px;
+    overflow: hidden;
+    &__wrapper {
+        background: linear-gradient(to bottom, rgb(7, 8, 13) 1.93%, rgb(45, 53, 64) 100%);
+        max-width: 917px;
+        position: relative;
+        margin-top: 95px;
+        padding-bottom: 100px;
+        &:before {
+            position: absolute;
+            content: '';
+            top: -95px;
+            left: -100%;
+            background: rgb(7, 8, 13);
+            width: 200%;
+            height: 95px;
+        }
+        &:after {
+            position: absolute;
+            content: '';
+            background: linear-gradient(to bottom, rgb(7, 8, 13) 1.93%, rgb(45, 53, 64) 100%);
+            height: 100%;
+            width: 307px;
+            top: 0;
+            left: -307px;
+        }
+    }
+    &__background {
+        max-height: 774px;
+        position: absolute;
+        top: 0;
+        right: -75.6%;
+        z-index: -1;
+    }
+    &__img {
+        max-height: 875px;
+        width: auto;
+        position: absolute;
+        top: -190px;
+        left: 755px;
+    }
+    &__title {
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    &__subtitle {
+        letter-spacing: 0.45em;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgb(255, 255, 255);
+        max-width: 560px;
+        margin-top: 25px;
+    }
+    &__promo-end {
+        margin-top: 40px;
+        color: rgb(255, 255, 255);
+        max-width: 560px;
+    }
+    &__box {
+        padding-right: 25px;
+        padding-top: 60px;
+        max-width: 665px;
+        display: flex;
+        flex-wrap: wrap;
+        &-text {
+            max-width: 555px;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 36px;
+            color: rgb(30, 38, 50);
+        }
+        &_links-wrapper {
+            margin-top: 55px;
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        &-links {
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        &-link {
+            margin: 0 0 0 60px;
+        }
+    }
+}
