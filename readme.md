@@ -1,1 +1,1 @@
-https://dmytrolukachyna.github.io/projects/fireplace/
+https://dmytrolukachyna.pp.ua/projects/fireplace/
