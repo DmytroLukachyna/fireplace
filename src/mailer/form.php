@@ -10,12 +10,12 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();
 $mail->Host = 'smtp.ukr.net';
 $mail->SMTPAuth = true;
-$mail->Username = 'web.development@ukr.net';
-$mail->Password = 'YUX96TVvI61E4J0h';
+$mail->Username = 'email@addre.ss';
+$mail->Password = 'passdeletedandrevoked';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
-$mail->setFrom('web.development@ukr.net', 'Kamin Sauna Group');
-$mail->addAddress('guidecco@ukr.net');
+$mail->setFrom('email@addre.ss', 'Kamin Sauna Group');
+$mail->addAddress('email@addre.ss');
 $mail->isHTML(true);
 $mail->Subject = 'Письмо c Kamin Sauna Group';
 $mail->Body    = '

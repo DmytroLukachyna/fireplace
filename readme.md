@@ -1,1 +1,1 @@
-https://dmytrolukachyna.pp.ua/projects/fireplace/
+https://dmytrolukachyna.pp.ua/projects/commercial/fireplace/
